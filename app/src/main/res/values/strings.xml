@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PADC-3-F-WPA-Android-Login</string>
+    <string name="logo"><b>curiosity</b></string>
+    <string name="facebook">Sign In With <b><b>Facebook</b></b></string>
+    <string name="google">Sign In With <b><b>Google</b></b></string>
+    <string name="twitter">Sign In With <b><b>Twitter</b></b></string>
+    <string name="SignUp">Sign Up With <b>Email</b></string>
+    <string name="SignIn">Sign In With <b>Email</b></string>
+    <string name="credit">Terms &amp; Conditions and Privacy Policy</string>
+</resources>

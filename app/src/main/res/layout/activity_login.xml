@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme.NoActionBar"
+    android:background="@drawable/background"
+    tools:context="xyz.waiphyoag.padc_3_f_wpa_android_login.LoginActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/iv_logo"
+        android:src="@drawable/curiositylogo"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_facebook"
+        android:layout_below="@id/iv_logo"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/facebook"
+        android:textAllCaps="false"
+        android:textColor="@color/icons"
+        android:background="#303F9F"
+        android:alpha="0.6"
+        android:drawablePadding="-35dp"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_facebook"
+
+        />
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_google"
+        android:layout_below="@id/btn_facebook"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/icons"
+        android:layout_marginLeft="25dp"
+        android:text="@string/google"
+        android:textAlignment="center"
+        android:background="#1976D2"
+        android:alpha="0.6"
+        android:textAllCaps="false"
+        android:drawablePadding="-60dp"
+        android:drawableLeft="@drawable/ic_google_plus"
+        />
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_twitter"
+        android:layout_below="@id/btn_google"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/twitter"
+        android:textAllCaps="false"
+        android:textColor="@color/icons"
+        android:background="#0288D1"
+        android:alpha="0.6"
+        android:drawablePadding="-50dp"
+        android:drawableLeft="@drawable/ic_twitter"
+        />
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_twitter"
+        android:layout_marginTop="10dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_sign_up"
+        android:layout_marginLeft="25dp"
+        android:background="#9E9E9E"
+        android:text="@string/SignUp"
+        android:textAllCaps="false"
+
+        android:alpha="0.5"
+        android:layout_weight="1"
+        android:textColor="@color/icons"
+        android:drawableLeft="@drawable/ic_message_black_24dp"
+
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_signin"
+            android:layout_marginLeft="10dp"
+            android:text="@string/SignIn"
+            android:textAllCaps="false"
+            android:alpha="0.5"
+            android:background="#9E9E9E"
+            android:layout_weight="1"
+            android:textColor="@color/icons"
+            android:drawableLeft="@drawable/ic_message_black_24dp"
+
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/credit"
+        android:textColor="@color/icons"
+        android:alpha="0.4"
+        android:layout_marginBottom="30dp"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
